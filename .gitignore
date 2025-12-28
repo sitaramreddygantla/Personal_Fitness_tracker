@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+credentials/
+
+# Ignore the environment variables
+.env
+
+# Ignore the Google credentials folder/files
+credentials/
+*.json
+
+# Ignore system files and Python cache
+.DS_Store
+__pycache__/
+*.pyc
+
