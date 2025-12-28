@@ -24,6 +24,6 @@ The project is structured locally on macOS to maintain security and organization
 - [x] Local Environment Configuration (Folder architecture & Git cloning).
 - [x] Version Control Setup (Handling hidden `.git` and `.gitignore` files).
 - [x] Google Cloud API Authentication.
-- [ ] Python ETL Script Implementation.
+- [x] Python ETL Script Implementation.
 - [ ] Automated Progressive Overload Alerts.
 
