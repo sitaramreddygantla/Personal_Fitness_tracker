@@ -34,8 +34,12 @@ def sync():
 
         # 5. Populating the workouts table in database
         for row in data:
+            category = str(row['category']).strip().lower()
+            body_part = str(row['body_part']).strip().lower()
+            exercise = str(row['exercise']).strip().lower()
+            
             cur.execute("""INSERT INTO workouts (log_date, category, body_part, exercise, set_number, weight, reps)
-                         VALUES (%s, %s, %s, %s, %s, %s, %s)""", (row['log_date'], row['category'], row['body_part'],row['exercise'],row['set_number'],row['weight'],row['reps']))
+                         VALUES (%s, %s, %s, %s, %s, %s, %s)""", (row['log_date'],category,body_part,exercise,row['set_number'],row['weight'],row['reps']))
 
         conn.commit()
         print(f"✅ Success! {len(data)} rows synced to the 'workouts' table.")
