@@ -36,7 +36,7 @@ The project is structured locally on macOS to maintain security and organization
    -> Automated "Spike Detection" logic to flag high-intensity overreach weeks (1.2x volume threshold).
 
 ## 📈 Project Status: Phase 3 (Automation & UX)
-- [ ] Scripts for Automated Progressive Overload Alerts.
+- [x] Scripts for Automated Progressive Overload Alerts.
 - [ ] Slack/Email integration for weekly progress summaries.
 - [ ] Logic for "Deload Week" suggestions if volume drops by >30%.
 
