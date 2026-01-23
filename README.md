@@ -25,5 +25,18 @@ The project is structured locally on macOS to maintain security and organization
 - [x] Version Control Setup (Handling hidden `.git` and `.gitignore` files).
 - [x] Google Cloud API Authentication.
 - [x] Python ETL Script Implementation.
-- [ ] Automated Progressive Overload Alerts.
+
+## 📈 Project Status: Phase 2 (Analytical Logic & Insights)
+- [x] Advanced SQL Analytical Engine
+   -> Developed a 15-question challenge framework to stress-test workout data.
+   -> Implemented Window Functions for performance benchmarking (e.g., comparing weekly volume vs. monthly averages).
+   -> Integrated Statistical Measures ($STDDEV$, Median, Mode) to track accessory exercise consistency.
+- [x] Complex Pattern Recognition
+   -> Solved the "Gaps and Islands" problem to identify consecutive progressive overload streaks.
+   -> Automated "Spike Detection" logic to flag high-intensity overreach weeks (1.2x volume threshold).
+
+## 📈 Project Status: Phase 3 (Automation & UX)
+- [ ] Scripts for Automated Progressive Overload Alerts.
+- [ ] Slack/Email integration for weekly progress summaries.
+- [ ] Logic for "Deload Week" suggestions if volume drops by >30%.
 
